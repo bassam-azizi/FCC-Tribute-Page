@@ -1,0 +1,114 @@
+#main {
+  /* text-align: center; */
+  font-size: 16px;
+  padding: 3px;
+  font-family: Verdana, Garamond, sans-serif;
+  width: 900px;
+  margin: auto;
+}
+#header {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+      to right,
+      rgba(131, 58, 180, 0.3) 0%,
+      rgba(253, 29, 29, 0.1) 50%,
+      rgba(252, 176, 69, 0.7) 80%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(131, 58, 180, 0.01) 0%,
+      rgba(253, 29, 29, 0.01) 50%,
+      rgba(252, 176, 69, 0) 50%
+    );
+}
+#title {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  background-color: white;
+  border-radius: 0 0 30px 30px;
+  display: inline;
+  padding: 32px 0 5px 0;
+}
+.stanislav-title {
+  color: #fc7234cc;
+  font-size: 54px;
+  font-family: "Comic Sans MS", sans-serif;
+  text-align: center;
+  margin: 0 40px;
+}
+.subtitle {
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  font-style: italic;
+  color: #fff;
+  /* text-align: right; */
+  float: right;
+  margin: 0 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+.subtitle strong {
+  font-size: 33px;
+  /* color: #fc7234ff; */
+  color: rgba(255, 243, 79, 0.979);
+}
+
+#image {
+  width: 100%;
+}
+#img-caption {
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4em;
+  position: absolute;
+  bottom: 440px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  width: 300px;
+  color: white;
+}
+.nav {
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+}
+
+h3 {
+  font-family: "Balto", Helvetica, sans-serif;
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #4c4e4d;
+}
+#tribute-info {
+  background-color: rgba(216, 216, 216, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+  width: 800px;
+  padding: 20px;
+  margin: auto;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  line-height: 2em;
+  font-size: 1.4rem;
+  font-weight: 100;
+  text-indent: 15px;
+}
+.p-caption {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(216, 216, 216, 0.2);
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    to right,
+    rgba(131, 58, 180, 0.3) 0%,
+    rgba(253, 29, 29, 0.1) 50%,
+    rgba(252, 176, 69, 0.7) 80%
+  );
+}
+.wiki-logo {
+  width: 90px;
+  height: 70px;
+  margin-left: 20px;
+}
