@@ -48,6 +48,9 @@
 #image {
   max-width: 100%;
 }
+#img-div {
+  margin: 0 20px 0 20px;
+}
 #img-caption {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
