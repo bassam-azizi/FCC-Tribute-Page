@@ -11,14 +11,19 @@
     font-size: 62px;
   }
   #img-caption {
-    font-family: 1.2em;
+    font-family: 1.5em;
     position: static;
     max-width: 100%;
-    /* top: -300px; */
-    /* color: yellow; */
   }
   .subtitle {
     float: none;
-    padding: 0;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 660px) {
+  .stanislav-title {
+    font-size: 52px;
+    margin: 0;
   }
 }
