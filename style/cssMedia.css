@@ -1,0 +1,24 @@
+@media screen and (max-width: 830px) {
+  #img-div {
+    margin: 55px 0 0 0;
+  }
+  .subtitle {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .stanislav-title {
+    font-size: 62px;
+  }
+  #img-caption {
+    font-family: 1.2em;
+    position: static;
+    max-width: 100%;
+    /* top: -300px; */
+    /* color: yellow; */
+  }
+  .subtitle {
+    float: none;
+    padding: 0;
+  }
+}
